@@ -1,24 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: ;0
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .header{
     background-color: #1f2937;
     color: #fff;
+    padding: 0 120px 100px 120px;
+
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 100px 0px;
+}
+
+.header .container h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    color: #e5e7eb;
+}
+
+.navbar a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #fff;
+}
+
+.header p{
+    color: #e5e7eb;
+    font-size: 15px;
+    padding-top: 10px;
 }
 
 .header button{
     background-color: #3882f6;
     color: #fff;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.header button:hover{
+    background-color: #fff;
+    color: #3882f6
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.hero .header-left{
+    max-width: 500px;
+}
+
+.hero img{
+    width: 400px;
+    height: 200px;
+}
+
+.info{
+    padding-bottom: 60px;
+}
+
+.info h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.info .container{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.piece{
+    width: 100px;
+}
+
+.piece-top{
+    width: 100px;
+    height: 100px;
+    border: solid 3px #3882f6;
+    border-radius: 10px;
 }
 
 .quote{
     background-color: #e5e7eb;
+    padding: 60px 20%;
+}
+
+.quote-text{
+   font-style: italic;
+   font-size: 23px; 
+   font-weight: 200;
+   color: #70747a;
+}
+
+.quote h3{
+    text-align: right;
+    padding: 10px;
+}
+
+.action .container{
+    background-color: #3882f6;
+    margin: 60px 15%;
+    color: #fff;
+    padding: 30px 80px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action h3{
+    font-size: 16px;
+}
+
+.action p{
+    font-size: 12px;
 }
 
 .action button{
     background-color: #3882f6;
     color: #fff;
+    border: solid 2px #fff;
+    padding: 0px 15px;
+    border-radius: 7px;
+}
+
+.action button:hover{
+    background-color: #fff;
+    color: #3882f6;
+
 }
 
 .footer{
     background-color: #1f2937;
     color: #fff;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 12px;
 
 }
